@@ -475,6 +475,9 @@ nav {
 
 /* RESPONSIVE SERVICE */
 @media screen and (max-width: 1199.98px){
+    .service .container{
+       width: 90%;
+    }
     .heading p {
         font-size: 3vw;
     }
