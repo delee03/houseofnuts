@@ -827,6 +827,15 @@ nav {
         width: 70vw;
     
     }
+    .feature_row .feature_item:nth-child(3) span {
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 450px){
+    .feature_row .feature_item:nth-child(3) span {
+        background-color: #f8ae56;
+        font-size: 13px;
+    }
 }
 
 
@@ -970,6 +979,24 @@ nav {
         font-size: 1.5vw;
     }
 }
+
+/* CLIP  */
+.clip_content iframe {
+    width: 1070px;
+    height: 600px;
+}
+@media screen and (max-width: 1200px) {
+    .clip_content iframe {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .clip .container {
+        width: 86%;
+    }
+}
+
 
 
 /* BLOG */
